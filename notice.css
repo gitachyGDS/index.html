@@ -1,0 +1,128 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: jost, monospace;
+  }
+  .navbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(28, 108, 140);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    place-items: center;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+  }
+  .navbar .active {
+    color: black;
+  }
+  .navbar li {
+    list-style-type: none;
+  
+    display: inline-block;
+    /*background-color: pink*/
+  }
+  .navbar a:hover {
+    color: black;
+  }
+  .navbar .logo {
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:#030617;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .footero-col{
+    display: flex-start;
+    width: 240px;
+    margin: 22px;
+    
+    align-items: center;
+  }
+    
+  .ofphoto {
+    height: 180px;
+    width: 180px;
+    background-color: white;
+  }
+  .ofphoto img{
+    height: 180px;
+    width: 180px;
+  }
+  .footero-col a, h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+div{
+
+    
+    width: 500px;
+    
+}
+body{
+    justify-content: center;
+}
+.mainnn{
+    justify-content: center;
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-right: 300px;
+}
+/* #box1{
+    text-align: center ;
+    height: 500px;
+    width:50px;
+    background-color: rgb(172, 248, 248);
+    color:cadetblue;
+}
+    
+ #box2{
+    height: 500px;
+    width: 50px;
+    background-color: rgb(193, 245, 228);
+   color: cadetblue;
+   font-weight: lighter;
+}
+
+#box3{
+    text-align:center;
+    background-color: white;
+    margin-left: 30px;
+} */
+.noticee {
+    width: 100%;
+    height: 40px;
+    background-color:rgb(49, 156, 228);
+    display: flex;
+    text-align: center;
+    place-items: center;
+  }
+  .noticee p:hover{
+    color: white;
+    cursor: pointer;
+  }
+h1{
+    color: black;
+    text-align: left;
+    font-family: jost;
+    font-weight: 600;
+}
+p {
+    color: black;
+}
